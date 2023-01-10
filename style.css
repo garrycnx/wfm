@@ -1,0 +1,237 @@
+.two
+{
+  color: chartreuse;
+  align-items: center;
+
+}
+
+.para
+{
+  color: darkred;
+  position: absolute;
+  bottom: 0; right: 5%;
+
+}
+
+.mainbody{
+   background-image: url(images/1.jpeg); 
+   background-repeat: no-repeat; 
+   background-size: cover;
+}
+
+.btn{
+  background-color: lavender;
+  border: none;
+  color: black;
+  padding: 0.31rem 0.88rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  
+}
+
+.btn1{
+  background-color: lavender;
+  border: lavender;
+  color: black;
+  padding: 0.31rem 0.88rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  top: 50%;
+}
+
+.bodyvid{
+    background-color: rgb(15, 78, 133);
+}
+
+.add{
+  color: darkblue;
+  font-family: Arial, Helvetica, sans-serif; 
+  position: absolute;
+  top: 9.38rem;
+  left:0.75rem;
+  font-size: 1rem;
+}
+
+.add1{
+  color: darkblue;
+   font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 7.5rem;
+  right:68.75rem;
+  font-size: 10.50rem;
+}
+
+.add2{
+  color: darkblue;
+  font-size: 6.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 240.31rem;
+  left:2.50rem;
+  font-size: 10.50rem;
+}
+
+.add3{
+  color: darkblue;
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 16.50rem;
+  left:2.50rem;
+  font-size: 10.50rem;
+
+}
+
+.bodycm{
+  
+    background-color: burlywood;
+    background-repeat: no-repeat; 
+    background-size: cover;
+ 
+}
+
+.vidp{
+   color:darksalmon;
+   right: -1.25rem;
+   font-size: 200%;
+   position: relative; 
+
+}
+
+*
+{
+  padding: 10;
+  margin: 100;
+  box-sizing: border-box;
+
+}
+.menu-bar {
+    background: rgb(1, 159, 164);
+    text-align: left;
+   
+}
+
+.menu-bar ul
+{
+  display: inline-flex;
+  list-style: none;
+  color: gold;
+  
+}
+.menu-bar ul li
+{
+      width: 10rem;
+      margin:0.50rem;
+      padding: 0.63rem;
+      display: flow-root;
+
+}  
+
+.menu-bar ul li a
+{
+  color: rgb(255, 255, 255);
+  text-decoration: dotted  ;
+  font-size: large;
+  font-style: initial;
+}
+.active, .menu-bar ul li:hover
+{
+  background: rgb(1, 159, 164);
+  border-radius:0.19rem ;
+
+}
+.header {
+    color: white;
+    position: absolute;
+    right: 5rem;
+    top: 1.25rem;
+    font-size: large;
+    
+}
+
+.desi
+{
+  color: white;
+  position: absolute;
+  right: 1.25rem;
+  top: 40.31rem;
+
+}
+.sub-menu-1
+{
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+  display: block;
+  position: absolute;
+   background: rgb(0, green, 0);
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+  display: block;
+  margin: 0.63rem;
+  position: absolute;
+  right: -8.13rem;
+  background-color: rgb(1, 159, 164);
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+  width: 6.25rem;
+  padding: 0.31rem;
+  left: 6.25rem;
+  
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:hover
+{
+  background-color: coral;
+
+}
+
+.add {
+  border-width:0.19rem;
+  border-style: outset;
+  border-color:#287EC7;
+ }
+
+.img1{
+   width: 100%;
+   height: auto;
+
+}
+
+
+.sub-menu-2
+{
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-2
+{
+  display: block;
+  position: absolute;
+   background: rgb(0, green, 0);
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul
+{
+  display: block;
+  margin: 0.31rem;
+  position: absolute;
+  right: -8.13rem;
+  background-color: rgb(1, 159, 164);
+
+}
+.menu-bar ul li:hover .sub-menu-2 ul li
+{
+  width: 6.25rem;
+  padding: 0.31rem;
+  left: 6.25rem;
+  
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:hover
+{
+  background-color: coral;
+
+}
